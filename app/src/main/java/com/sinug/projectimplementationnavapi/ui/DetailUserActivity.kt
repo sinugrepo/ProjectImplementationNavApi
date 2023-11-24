@@ -43,8 +43,8 @@ class DetailUserActivity : AppCompatActivity(){
             val bundle = Bundle()
             bundle.putString(FollowerFollowingFragment.ARG_USERNAME, username)
             tab.text = when (position) {
-                0 -> "Follower"
-                1 -> "Following"
+                0 -> "Followers"
+                1 -> "Followings"
                 else -> null
             }
         }.attach()
