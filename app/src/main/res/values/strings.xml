@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjectImplementationNavApi</string>
+    <string name="searchbar_hint">Cari Username Github</string>
+    <string name="namaAkun">Rizki Nugroho</string>
+    <string name="usernameAkun">sinugrepo</string>
+    <string name="following">Following</string>
+    <string name="follower">Follower</string>
+    <string name="tab_text_1">Follower</string>
+    <string name="tab_text_2">Following</string>
+    <string name="content_tab_text">This is Tab %1$d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label">Label</string>
+</resources>
