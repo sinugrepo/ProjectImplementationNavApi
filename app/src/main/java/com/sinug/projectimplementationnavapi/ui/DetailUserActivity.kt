@@ -25,15 +25,6 @@ import retrofit2.Response
 class DetailUserActivity : AppCompatActivity(){
     private lateinit var binding: ActivityDetailUserBinding
 
-    companion object{
-        const val TAG = "DetailUserActivity"
-        @StringRes
-        private val TAB_TITLES = intArrayOf(
-            R.string.tab_text_1,
-            R.string.tab_text_2,
-        )
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_user)
@@ -103,7 +94,6 @@ class DetailUserActivity : AppCompatActivity(){
     }
     override fun onBackPressed() {
         if (supportFragmentManager.backStackEntryCount > 0) {
-            // Jika ada fragment dalam tumpukan kembali, hapus fragment teratas
             supportFragmentManager.popBackStack()
         } else {
             super.onBackPressed()
